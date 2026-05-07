@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "Node16",
+    "strict": true,
+    "types": ["node"],
+    "target": "ES2020",
+    "outDir": "dist",
+    "moduleResolution": "Node16",
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["crawl.ts", "crawl-browser.ts"]
+}

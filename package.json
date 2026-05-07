@@ -1,0 +1,21 @@
+{
+  "name": "oxford-wordlist-scraper",
+  "version": "1.0.0",
+  "description": "Crawl Oxford 3000/5000 word lists",
+  "scripts": {
+    "start": "ts-node crawl.ts",
+    "start:browser": "ts-node crawl-browser.ts",
+    "build": "tsc && node dist/crawl.js"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "puppeteer": "^22.10.0",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.39",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
