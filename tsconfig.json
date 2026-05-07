@@ -2,12 +2,18 @@
   "compilerOptions": {
     "module": "Node16",
     "strict": true,
-    "types": ["node"],
+    "types": [
+      "node"
+    ],
     "target": "ES2020",
     "outDir": "dist",
     "moduleResolution": "Node16",
     "esModuleInterop": true,
     "skipLibCheck": true
   },
-  "include": ["crawl_oxford.ts", "crawl_browser.ts"]
+  "include": [
+    "crawl_oxford.ts",
+    "crawl_browser.ts",
+    "crawl_cambridge.ts"
+  ]
 }

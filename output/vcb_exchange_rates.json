@@ -1,0 +1,147 @@
+{
+  "source": "https://www.vietcombank.com.vn/vi-VN/KHCN/Cong-cu-Tien-ich/Ty-gia",
+  "fetchedAt": "2026-05-07T09:31:30.898Z",
+  "rateDate": "07/05/2026",
+  "rates": [
+    {
+      "currencyCode": "USD",
+      "currencyName": "US DOLLAR",
+      "buyCash": "26,088.00",
+      "buyTransfer": "26,118.00",
+      "sell": "26,368.00"
+    },
+    {
+      "currencyCode": "EUR",
+      "currencyName": "EURO",
+      "buyCash": "30,153.88",
+      "buyTransfer": "30,458.46",
+      "sell": "31,743.58"
+    },
+    {
+      "currencyCode": "GBP",
+      "currencyName": "UK POUND STERLING",
+      "buyCash": "34,881.29",
+      "buyTransfer": "35,233.62",
+      "sell": "36,361.97"
+    },
+    {
+      "currencyCode": "JPY",
+      "currencyName": "JAPANESE YEN",
+      "buyCash": "162.67",
+      "buyTransfer": "164.31",
+      "sell": "173.00"
+    },
+    {
+      "currencyCode": "AUD",
+      "currencyName": "AUSTRALIAN DOLLAR",
+      "buyCash": "18,581.48",
+      "buyTransfer": "18,769.17",
+      "sell": "19,370.24"
+    },
+    {
+      "currencyCode": "SGD",
+      "currencyName": "SINGAPORE DOLLAR",
+      "buyCash": "20,228.38",
+      "buyTransfer": "20,432.71",
+      "sell": "21,129.29"
+    },
+    {
+      "currencyCode": "THB",
+      "currencyName": "THAI BAHT",
+      "buyCash": "719.96",
+      "buyTransfer": "799.95",
+      "sell": "833.87"
+    },
+    {
+      "currencyCode": "CAD",
+      "currencyName": "CANADIAN DOLLAR",
+      "buyCash": "18,816.01",
+      "buyTransfer": "19,006.07",
+      "sell": "19,614.74"
+    },
+    {
+      "currencyCode": "CHF",
+      "currencyName": "SWISS FRANC",
+      "buyCash": "32,963.70",
+      "buyTransfer": "33,296.67",
+      "sell": "34,362.98"
+    },
+    {
+      "currencyCode": "HKD",
+      "currencyName": "HONG KONG DOLLAR",
+      "buyCash": "3,264.00",
+      "buyTransfer": "3,296.97",
+      "sell": "3,423.03"
+    },
+    {
+      "currencyCode": "CNY",
+      "currencyName": "CHINESE YUAN",
+      "buyCash": "3,768.84",
+      "buyTransfer": "3,806.91",
+      "sell": "3,928.83"
+    },
+    {
+      "currencyCode": "DKK",
+      "currencyName": "DANISH KRONE",
+      "buyCash": "-",
+      "buyTransfer": "4,065.22",
+      "sell": "4,220.67"
+    },
+    {
+      "currencyCode": "INR",
+      "currencyName": "INDIAN RUPEE",
+      "buyCash": "-",
+      "buyTransfer": "276.50",
+      "sell": "288.39"
+    },
+    {
+      "currencyCode": "KRW",
+      "currencyName": "KOREAN WON",
+      "buyCash": "15.71",
+      "buyTransfer": "17.46",
+      "sell": "18.94"
+    },
+    {
+      "currencyCode": "KWD",
+      "currencyName": "KUWAITI DINAR",
+      "buyCash": "-",
+      "buyTransfer": "84,575.51",
+      "sell": "88,674.70"
+    },
+    {
+      "currencyCode": "MYR",
+      "currencyName": "MALAYSIAN RINGGIT",
+      "buyCash": "-",
+      "buyTransfer": "6,662.32",
+      "sell": "6,807.26"
+    },
+    {
+      "currencyCode": "NOK",
+      "currencyName": "NORWEGIAN KRONE",
+      "buyCash": "-",
+      "buyTransfer": "2,773.00",
+      "sell": "2,890.58"
+    },
+    {
+      "currencyCode": "RUB",
+      "currencyName": "RUSSIAN RUBLE",
+      "buyCash": "-",
+      "buyTransfer": "334.98",
+      "sell": "370.80"
+    },
+    {
+      "currencyCode": "SAR",
+      "currencyName": "SAUDI ARABIAN RIYAL",
+      "buyCash": "-",
+      "buyTransfer": "6,973.37",
+      "sell": "7,273.47"
+    },
+    {
+      "currencyCode": "SEK",
+      "currencyName": "SWEDISH KRONA",
+      "buyCash": "-",
+      "buyTransfer": "2,793.26",
+      "sell": "2,911.69"
+    }
+  ]
+}
