@@ -3,7 +3,9 @@
     "allow": [
       "WebFetch(domain:www.oxfordlearnersdictionaries.com)",
       "Bash(grep -o '<li[^>]*>.\\\\{0,500\\\\}' /Users/saltluxmac/Desktop/files/output/page.html)",
-      "Bash(grep -o 'abandon.\\\\{0,300\\\\}')"
+      "Bash(grep -o 'abandon.\\\\{0,300\\\\}')",
+      "Bash(npx ts-node *)",
+      "Bash(npm uninstall *)"
     ]
   }
 }

@@ -8,10 +8,7 @@
     "build": "tsc && node dist/crawl.js"
   },
   "dependencies": {
-    "fs": "^0.0.1-security",
-    "path": "^0.12.7",
-    "puppeteer": "^22.10.0",
-    "util": "^0.12.5"
+    "puppeteer": "^22.10.0"
   },
   "devDependencies": {
     "@types/node": "^20.19.39",
