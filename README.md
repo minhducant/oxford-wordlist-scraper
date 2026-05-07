@@ -1,11 +1,13 @@
-# Oxford 3000/5000 Word List Crawler
+# Wordlist Scraper
 
-Crawls the full Oxford 3000 and 5000 word list from:  
-https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000
+This repository contains two main crawlers:
+
+1. `crawl_oxford.ts` — scrape the Oxford 3000/5000 word list.
+2. `crawl_cambridge.ts` — enrich Oxford words with Cambridge Dictionary data.
 
 ## Requirements
 
-- Node.js ≥ 18 (uses built-in `fetch`)
+- Node.js ≥ 18
 - TypeScript + `ts-node`
 
 ## Setup
@@ -14,20 +16,25 @@ https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000
 npm install
 ```
 
-## Usage
+---
+
+## Oxford crawler (`crawl_oxford.ts`)
+
+Crawls the full Oxford 3000 and 5000 word list from:
+https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000
+
+### Usage
 
 ```bash
-# Crawl everything → output/ (JSON + CSV + TXT per level)
-npx ts-node crawl.ts
+npx ts-node crawl_oxford.ts
+```
 
-# Only words at B2 level
-npx ts-node crawl.ts --level b2
+Optional flags:
 
-# Output JSON only
-npx ts-node crawl.ts --format json
-
-# Combine both flags
-npx ts-node crawl.ts --level a1 --format csv
+```bash
+npx ts-node crawl_oxford.ts --level b2
+npx ts-node crawl_oxford.ts --format json
+npx ts-node crawl_oxford.ts --level a1 --format csv
 ```
 
 ### `--level` options
@@ -41,12 +48,12 @@ npx ts-node crawl.ts --level a1 --format csv
 | `csv`  | `oxford_words.csv` |
 | `txt`  | `oxford_A1.txt` … `oxford_C1.txt` |
 
-## Output
+### Output
 
-```
+```text
 output/
-├── oxford_words.json     ← Full structured result
-├── oxford_words.csv      ← Flat: word, level, pos, url
+├── oxford_words.json     ← full structured result
+├── oxford_words.csv      ← flat CSV: word, level, pos, url, audioUk, audioUs
 ├── oxford_A1.txt         ← word TAB pos
 ├── oxford_A2.txt
 ├── oxford_B1.txt
@@ -54,29 +61,71 @@ output/
 └── oxford_C1.txt
 ```
 
-### JSON shape
+### Notes
 
-```json
-{
-  "crawledAt": "2025-01-01T00:00:00.000Z",
-  "source": "https://...",
-  "total": 5741,
-  "words": [
-    { "word": "abandon", "pos": "verb", "level": "b2", "url": "/definition/english/abandon_1" }
-  ],
-  "byLevel": {
-    "a1": [...],
-    "a2": [...],
-    "b1": [...],
-    "b2": [...],
-    "c1": [...]
-  }
-}
+- Uses built-in `fetch` and `fs`.
+- Removes duplicate word+POS+level entries.
+- Keeps separate entries for the same word with different parts of speech.
+
+---
+
+## Cambridge enricher (`crawl_cambridge.ts`)
+
+Reads words from `output/oxford_words.json` by default and fetches Cambridge Dictionary pages to extract:
+- part of speech
+- UK / US IPA pronunciations
+- UK / US audio URLs
+- definitions and example sentences
+- CEFR level tags when available
+
+### Usage
+
+```bash
+npx ts-node crawl_cambridge.ts
 ```
 
-## Notes
+Optional flags:
 
-- No external dependencies beyond TypeScript — uses built-in `fetch` and `fs`.
-- Oxford renders the full word list in a single HTML page (no pagination needed).
-- Duplicate entries (same word + POS + level) are removed automatically.
-- Words with multiple POS (e.g. `about` as adverb and preposition) are kept as separate entries.
+```bash
+npx ts-node crawl_cambridge.ts --level b2
+npx ts-node crawl_cambridge.ts --word "abandon"
+npx ts-node crawl_cambridge.ts --limit 200
+npx ts-node crawl_cambridge.ts --delay 800
+npx ts-node crawl_cambridge.ts --no-resume
+```
+
+### Output
+
+```text
+output/
+├── cambridge_words.json      ← full structured Cambridge results
+├── cambridge_words.csv       ← flat CSV summary
+└── cambridge_checkpoint.json ← resumable progress checkpoint
+```
+
+### Notes
+
+- Progress is saved after each batch to `output/cambridge_checkpoint.json`.
+- The crawler is designed to resume runs and avoid reprocessing completed words.
+- Cambridge pages may be missing for some words; those are logged with an error status.
+
+---
+
+## Recommended workflow
+
+1. Run the Oxford crawler first:
+
+```bash
+npx ts-node crawl_oxford.ts
+```
+
+2. Then enrich the results with Cambridge data:
+
+```bash
+npx ts-node crawl_cambridge.ts
+```
+
+## Troubleshooting
+
+- If `output/oxford_words.json` is missing, run `crawl_oxford.ts` first.
+- If you want only one word from Cambridge, use `--word "<word>"`.
