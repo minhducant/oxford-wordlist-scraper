@@ -1,0 +1,2547 @@
+{
+  "source": "https://flagpedia.net/index",
+  "crawledAt": "2026-05-14T07:24:06.152Z",
+  "total": 254,
+  "countries": [
+    {
+      "name": "Afghanistan",
+      "slug": "afghanistan",
+      "isoCode": "af",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/af.png?v=un",
+      "pageUrl": "https://flagpedia.net/afghanistan",
+      "area": 652230,
+      "population": 32225560,
+      "localPath": "output/flags/af.png"
+    },
+    {
+      "name": "Åland Islands",
+      "slug": "aland-islands",
+      "isoCode": "ax",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ax.webp",
+      "pageUrl": "https://flagpedia.net/aland-islands",
+      "area": 1580,
+      "population": 29789,
+      "localPath": "output/flags/ax.webp"
+    },
+    {
+      "name": "Albania",
+      "slug": "albania",
+      "isoCode": "al",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/al.webp",
+      "pageUrl": "https://flagpedia.net/albania",
+      "area": 28748,
+      "population": 2862427,
+      "localPath": "output/flags/al.webp"
+    },
+    {
+      "name": "Algeria",
+      "slug": "algeria",
+      "isoCode": "dz",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/dz.webp",
+      "pageUrl": "https://flagpedia.net/algeria",
+      "area": 2381740,
+      "population": 43000000,
+      "localPath": "output/flags/dz.webp"
+    },
+    {
+      "name": "American Samoa",
+      "slug": "american-samoa",
+      "isoCode": "as",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/as.webp",
+      "pageUrl": "https://flagpedia.net/american-samoa",
+      "area": 199,
+      "population": 56700,
+      "localPath": "output/flags/as.webp"
+    },
+    {
+      "name": "Andorra",
+      "slug": "andorra",
+      "isoCode": "ad",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ad.webp",
+      "pageUrl": "https://flagpedia.net/andorra",
+      "area": 468,
+      "population": 77543,
+      "localPath": "output/flags/ad.webp"
+    },
+    {
+      "name": "Angola",
+      "slug": "angola",
+      "isoCode": "ao",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ao.webp",
+      "pageUrl": "https://flagpedia.net/angola",
+      "area": 1246700,
+      "population": 31127674,
+      "localPath": "output/flags/ao.webp"
+    },
+    {
+      "name": "Anguilla",
+      "slug": "anguilla",
+      "isoCode": "ai",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ai.webp",
+      "pageUrl": "https://flagpedia.net/anguilla",
+      "area": 91,
+      "population": 14869,
+      "localPath": "output/flags/ai.webp"
+    },
+    {
+      "name": "Antarctica",
+      "slug": "antarctica",
+      "isoCode": "aq",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/aq.webp",
+      "pageUrl": "https://flagpedia.net/antarctica",
+      "area": 14000000,
+      "population": 3000,
+      "localPath": "output/flags/aq.webp"
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "slug": "antigua-and-barbuda",
+      "isoCode": "ag",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ag.webp",
+      "pageUrl": "https://flagpedia.net/antigua-and-barbuda",
+      "area": 442,
+      "population": 96453,
+      "localPath": "output/flags/ag.webp"
+    },
+    {
+      "name": "Argentina",
+      "slug": "argentina",
+      "isoCode": "ar",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ar.webp",
+      "pageUrl": "https://flagpedia.net/argentina",
+      "area": 2780400,
+      "population": 44938712,
+      "localPath": "output/flags/ar.webp"
+    },
+    {
+      "name": "Armenia",
+      "slug": "armenia",
+      "isoCode": "am",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/am.webp",
+      "pageUrl": "https://flagpedia.net/armenia",
+      "area": 29743,
+      "population": 2957500,
+      "localPath": "output/flags/am.webp"
+    },
+    {
+      "name": "Aruba",
+      "slug": "aruba",
+      "isoCode": "aw",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/aw.webp",
+      "pageUrl": "https://flagpedia.net/aruba",
+      "area": 180,
+      "population": 112309,
+      "localPath": "output/flags/aw.webp"
+    },
+    {
+      "name": "Australia",
+      "slug": "australia",
+      "isoCode": "au",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/au.webp",
+      "pageUrl": "https://flagpedia.net/australia",
+      "area": 7692020,
+      "population": 25627280,
+      "localPath": "output/flags/au.webp"
+    },
+    {
+      "name": "Austria",
+      "slug": "austria",
+      "isoCode": "at",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/at.webp",
+      "pageUrl": "https://flagpedia.net/austria",
+      "area": 83871,
+      "population": 8902600,
+      "localPath": "output/flags/at.webp"
+    },
+    {
+      "name": "Azerbaijan",
+      "slug": "azerbaijan",
+      "isoCode": "az",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/az.webp",
+      "pageUrl": "https://flagpedia.net/azerbaijan",
+      "area": 86600,
+      "population": 10067108,
+      "localPath": "output/flags/az.webp"
+    },
+    {
+      "name": "Bahamas",
+      "slug": "the-bahamas",
+      "isoCode": "bs",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/bs.webp",
+      "pageUrl": "https://flagpedia.net/the-bahamas",
+      "area": 13943,
+      "population": 385340,
+      "localPath": "output/flags/bs.webp"
+    },
+    {
+      "name": "Bahrain",
+      "slug": "bahrain",
+      "isoCode": "bh",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/bh.webp",
+      "pageUrl": "https://flagpedia.net/bahrain",
+      "area": 778,
+      "population": 1543300,
+      "localPath": "output/flags/bh.webp"
+    },
+    {
+      "name": "Bangladesh",
+      "slug": "bangladesh",
+      "isoCode": "bd",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/bd.webp",
+      "pageUrl": "https://flagpedia.net/bangladesh",
+      "area": 147570,
+      "population": 168163758,
+      "localPath": "output/flags/bd.webp"
+    },
+    {
+      "name": "Barbados",
+      "slug": "barbados",
+      "isoCode": "bb",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/bb.webp",
+      "pageUrl": "https://flagpedia.net/barbados",
+      "area": 430,
+      "population": 287025,
+      "localPath": "output/flags/bb.webp"
+    },
+    {
+      "name": "Belarus",
+      "slug": "belarus",
+      "isoCode": "by",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/by.webp",
+      "pageUrl": "https://flagpedia.net/belarus",
+      "area": 207600,
+      "population": 9413446,
+      "localPath": "output/flags/by.webp"
+    },
+    {
+      "name": "Belgium",
+      "slug": "belgium",
+      "isoCode": "be",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/be.webp",
+      "pageUrl": "https://flagpedia.net/belgium",
+      "area": 30528,
+      "population": 11522169,
+      "localPath": "output/flags/be.webp"
+    },
+    {
+      "name": "Belize",
+      "slug": "belize",
+      "isoCode": "bz",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/bz.webp",
+      "pageUrl": "https://flagpedia.net/belize",
+      "area": 22966,
+      "population": 408487,
+      "localPath": "output/flags/bz.webp"
+    },
+    {
+      "name": "Benin",
+      "slug": "benin",
+      "isoCode": "bj",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/bj.webp",
+      "pageUrl": "https://flagpedia.net/benin",
+      "area": 114763,
+      "population": 11733059,
+      "localPath": "output/flags/bj.webp"
+    },
+    {
+      "name": "Bermuda",
+      "slug": "bermuda",
+      "isoCode": "bm",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/bm.webp",
+      "pageUrl": "https://flagpedia.net/bermuda",
+      "area": 54,
+      "population": 64027,
+      "localPath": "output/flags/bm.webp"
+    },
+    {
+      "name": "Bhutan",
+      "slug": "bhutan",
+      "isoCode": "bt",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/bt.webp",
+      "pageUrl": "https://flagpedia.net/bhutan",
+      "area": 38394,
+      "population": 741672,
+      "localPath": "output/flags/bt.webp"
+    },
+    {
+      "name": "Bolivia",
+      "slug": "bolivia",
+      "isoCode": "bo",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/bo.webp",
+      "pageUrl": "https://flagpedia.net/bolivia",
+      "area": 1098580,
+      "population": 11469896,
+      "localPath": "output/flags/bo.webp"
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "slug": "bosnia-and-herzegovina",
+      "isoCode": "ba",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ba.webp",
+      "pageUrl": "https://flagpedia.net/bosnia-and-herzegovina",
+      "area": 51209,
+      "population": 3301000,
+      "localPath": "output/flags/ba.webp"
+    },
+    {
+      "name": "Botswana",
+      "slug": "botswana",
+      "isoCode": "bw",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/bw.webp",
+      "pageUrl": "https://flagpedia.net/botswana",
+      "area": 581730,
+      "population": 2338851,
+      "localPath": "output/flags/bw.webp"
+    },
+    {
+      "name": "Bouvet Island",
+      "slug": "bouvet-island",
+      "isoCode": "bv",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/bv.webp",
+      "pageUrl": "https://flagpedia.net/bouvet-island",
+      "area": 49,
+      "population": 0,
+      "localPath": "output/flags/bv.webp"
+    },
+    {
+      "name": "Brazil",
+      "slug": "brazil",
+      "isoCode": "br",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/br.webp",
+      "pageUrl": "https://flagpedia.net/brazil",
+      "area": 8515770,
+      "population": 211173432,
+      "localPath": "output/flags/br.webp"
+    },
+    {
+      "name": "British Indian Ocean Territory",
+      "slug": "british-indian-ocean-territory",
+      "isoCode": "io",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/io.webp",
+      "pageUrl": "https://flagpedia.net/british-indian-ocean-territory",
+      "area": 60,
+      "population": 0,
+      "localPath": "output/flags/io.webp"
+    },
+    {
+      "name": "Brunei",
+      "slug": "brunei",
+      "isoCode": "bn",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/bn.webp",
+      "pageUrl": "https://flagpedia.net/brunei",
+      "area": 5765,
+      "population": 442400,
+      "localPath": "output/flags/bn.webp"
+    },
+    {
+      "name": "Bulgaria",
+      "slug": "bulgaria",
+      "isoCode": "bg",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/bg.webp",
+      "pageUrl": "https://flagpedia.net/bulgaria",
+      "area": 111002,
+      "population": 7000039,
+      "localPath": "output/flags/bg.webp"
+    },
+    {
+      "name": "Burkina Faso",
+      "slug": "burkina-faso",
+      "isoCode": "bf",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/bf.webp",
+      "pageUrl": "https://flagpedia.net/burkina-faso",
+      "area": 274222,
+      "population": 20870060,
+      "localPath": "output/flags/bf.webp"
+    },
+    {
+      "name": "Burundi",
+      "slug": "burundi",
+      "isoCode": "bi",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/bi.webp",
+      "pageUrl": "https://flagpedia.net/burundi",
+      "area": 27834,
+      "population": 10953317,
+      "localPath": "output/flags/bi.webp"
+    },
+    {
+      "name": "Cambodia",
+      "slug": "cambodia",
+      "isoCode": "kh",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/kh.webp",
+      "pageUrl": "https://flagpedia.net/cambodia",
+      "area": 181035,
+      "population": 15288489,
+      "localPath": "output/flags/kh.webp"
+    },
+    {
+      "name": "Cameroon",
+      "slug": "cameroon",
+      "isoCode": "cm",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/cm.webp",
+      "pageUrl": "https://flagpedia.net/cameroon",
+      "area": 475442,
+      "population": 25876000,
+      "localPath": "output/flags/cm.webp"
+    },
+    {
+      "name": "Canada",
+      "slug": "canada",
+      "isoCode": "ca",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ca.webp",
+      "pageUrl": "https://flagpedia.net/canada",
+      "area": 9984670,
+      "population": 37935814,
+      "localPath": "output/flags/ca.webp"
+    },
+    {
+      "name": "Cape Verde",
+      "slug": "cape-verde",
+      "isoCode": "cv",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/cv.webp",
+      "pageUrl": "https://flagpedia.net/cape-verde",
+      "area": 4033,
+      "population": 550483,
+      "localPath": "output/flags/cv.webp"
+    },
+    {
+      "name": "Caribbean Netherlands",
+      "slug": "caribbean-netherlands",
+      "isoCode": "bq",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/bq.webp",
+      "pageUrl": "https://flagpedia.net/caribbean-netherlands",
+      "area": 328,
+      "population": 25157,
+      "localPath": "output/flags/bq.webp"
+    },
+    {
+      "name": "Cayman Islands",
+      "slug": "cayman-islands",
+      "isoCode": "ky",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ky.webp",
+      "pageUrl": "https://flagpedia.net/cayman-islands",
+      "area": 264,
+      "population": 65813,
+      "localPath": "output/flags/ky.webp"
+    },
+    {
+      "name": "Central African Republic",
+      "slug": "the-central-african-republic",
+      "isoCode": "cf",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/cf.webp",
+      "pageUrl": "https://flagpedia.net/the-central-african-republic",
+      "area": 622984,
+      "population": 5496011,
+      "localPath": "output/flags/cf.webp"
+    },
+    {
+      "name": "Chad",
+      "slug": "chad",
+      "isoCode": "td",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/td.webp",
+      "pageUrl": "https://flagpedia.net/chad",
+      "area": 1284000,
+      "population": 15692969,
+      "localPath": "output/flags/td.webp"
+    },
+    {
+      "name": "Chile",
+      "slug": "chile",
+      "isoCode": "cl",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/cl.webp",
+      "pageUrl": "https://flagpedia.net/chile",
+      "area": 756102,
+      "population": 19107216,
+      "localPath": "output/flags/cl.webp"
+    },
+    {
+      "name": "China",
+      "slug": "the-people-s-republic-of-china",
+      "isoCode": "cn",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/cn.webp",
+      "pageUrl": "https://flagpedia.net/the-people-s-republic-of-china",
+      "area": 9596960,
+      "population": 1401492920,
+      "localPath": "output/flags/cn.webp"
+    },
+    {
+      "name": "Christmas Island",
+      "slug": "christmas-island",
+      "isoCode": "cx",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/cx.webp",
+      "pageUrl": "https://flagpedia.net/christmas-island",
+      "area": 135,
+      "population": 1928,
+      "localPath": "output/flags/cx.webp"
+    },
+    {
+      "name": "Cocos Islands",
+      "slug": "cocos-islands",
+      "isoCode": "cc",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/cc.webp",
+      "pageUrl": "https://flagpedia.net/cocos-islands",
+      "area": 14,
+      "population": 538,
+      "localPath": "output/flags/cc.webp"
+    },
+    {
+      "name": "Colombia",
+      "slug": "colombia",
+      "isoCode": "co",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/co.webp",
+      "pageUrl": "https://flagpedia.net/colombia",
+      "area": 1141750,
+      "population": 49395678,
+      "localPath": "output/flags/co.webp"
+    },
+    {
+      "name": "Comoros",
+      "slug": "the-comoros",
+      "isoCode": "km",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/km.webp",
+      "pageUrl": "https://flagpedia.net/the-comoros",
+      "area": 1862,
+      "population": 873724,
+      "localPath": "output/flags/km.webp"
+    },
+    {
+      "name": "Republic of the Congo",
+      "slug": "the-republic-of-the-congo",
+      "isoCode": "cg",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/cg.webp",
+      "pageUrl": "https://flagpedia.net/the-republic-of-the-congo",
+      "area": 342000,
+      "population": 5380508,
+      "localPath": "output/flags/cg.webp"
+    },
+    {
+      "name": "DR Congo",
+      "slug": "the-democratic-republic-of-the-congo",
+      "isoCode": "cd",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/cd.webp",
+      "pageUrl": "https://flagpedia.net/the-democratic-republic-of-the-congo",
+      "area": 2344860,
+      "population": 86790567,
+      "localPath": "output/flags/cd.webp"
+    },
+    {
+      "name": "Cook Islands",
+      "slug": "cook-islands",
+      "isoCode": "ck",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ck.webp",
+      "pageUrl": "https://flagpedia.net/cook-islands",
+      "area": 236,
+      "population": 15200,
+      "localPath": "output/flags/ck.webp"
+    },
+    {
+      "name": "Costa Rica",
+      "slug": "costa-rica",
+      "isoCode": "cr",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/cr.webp",
+      "pageUrl": "https://flagpedia.net/costa-rica",
+      "area": 51100,
+      "population": 5058007,
+      "localPath": "output/flags/cr.webp"
+    },
+    {
+      "name": "Côte d'Ivoire",
+      "slug": "cote-d-ivoire",
+      "isoCode": "ci",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ci.webp",
+      "pageUrl": "https://flagpedia.net/cote-d-ivoire",
+      "area": 322463,
+      "population": 25823071,
+      "localPath": "output/flags/ci.webp"
+    },
+    {
+      "name": "Croatia",
+      "slug": "croatia",
+      "isoCode": "hr",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/hr.webp",
+      "pageUrl": "https://flagpedia.net/croatia",
+      "area": 56594,
+      "population": 4076246,
+      "localPath": "output/flags/hr.webp"
+    },
+    {
+      "name": "Cuba",
+      "slug": "cuba",
+      "isoCode": "cu",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/cu.webp",
+      "pageUrl": "https://flagpedia.net/cuba",
+      "area": 109884,
+      "population": 11209628,
+      "localPath": "output/flags/cu.webp"
+    },
+    {
+      "name": "Curaçao",
+      "slug": "curacao",
+      "isoCode": "cw",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/cw.webp",
+      "pageUrl": "https://flagpedia.net/curacao",
+      "area": 444,
+      "population": 158665,
+      "localPath": "output/flags/cw.webp"
+    },
+    {
+      "name": "Cyprus",
+      "slug": "cyprus",
+      "isoCode": "cy",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/cy.webp",
+      "pageUrl": "https://flagpedia.net/cyprus",
+      "area": 9251,
+      "population": 875900,
+      "localPath": "output/flags/cy.webp"
+    },
+    {
+      "name": "Czechia",
+      "slug": "the-czech-republic",
+      "isoCode": "cz",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/cz.webp",
+      "pageUrl": "https://flagpedia.net/the-czech-republic",
+      "area": 78865,
+      "population": 10681161,
+      "localPath": "output/flags/cz.webp"
+    },
+    {
+      "name": "Denmark",
+      "slug": "denmark",
+      "isoCode": "dk",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/dk.webp",
+      "pageUrl": "https://flagpedia.net/denmark",
+      "area": 43094,
+      "population": 5822763,
+      "localPath": "output/flags/dk.webp"
+    },
+    {
+      "name": "Djibouti",
+      "slug": "djibouti",
+      "isoCode": "dj",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/dj.webp",
+      "pageUrl": "https://flagpedia.net/djibouti",
+      "area": 23200,
+      "population": 1078373,
+      "localPath": "output/flags/dj.webp"
+    },
+    {
+      "name": "Dominica",
+      "slug": "dominica",
+      "isoCode": "dm",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/dm.webp",
+      "pageUrl": "https://flagpedia.net/dominica",
+      "area": 751,
+      "population": 71808,
+      "localPath": "output/flags/dm.webp"
+    },
+    {
+      "name": "Dominican Republic",
+      "slug": "the-dominican-republic",
+      "isoCode": "do",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/do.webp",
+      "pageUrl": "https://flagpedia.net/the-dominican-republic",
+      "area": 48671,
+      "population": 10358320,
+      "localPath": "output/flags/do.webp"
+    },
+    {
+      "name": "Ecuador",
+      "slug": "ecuador",
+      "isoCode": "ec",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ec.webp",
+      "pageUrl": "https://flagpedia.net/ecuador",
+      "area": 276841,
+      "population": 17431712,
+      "localPath": "output/flags/ec.webp"
+    },
+    {
+      "name": "Egypt",
+      "slug": "egypt",
+      "isoCode": "eg",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/eg.webp",
+      "pageUrl": "https://flagpedia.net/egypt",
+      "area": 1002450,
+      "population": 100052943,
+      "localPath": "output/flags/eg.webp"
+    },
+    {
+      "name": "El Salvador",
+      "slug": "el-salvador",
+      "isoCode": "sv",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/sv.webp",
+      "pageUrl": "https://flagpedia.net/el-salvador",
+      "area": 21041,
+      "population": 6704864,
+      "localPath": "output/flags/sv.webp"
+    },
+    {
+      "name": "England",
+      "slug": "england",
+      "isoCode": "gb-eng",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/gb-eng.webp",
+      "pageUrl": "https://flagpedia.net/england",
+      "area": 130279,
+      "population": 55977178,
+      "localPath": "output/flags/gb-eng.webp"
+    },
+    {
+      "name": "Equatorial Guinea",
+      "slug": "equatorial-guinea",
+      "isoCode": "gq",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/gq.webp",
+      "pageUrl": "https://flagpedia.net/equatorial-guinea",
+      "area": 28051,
+      "population": 1358276,
+      "localPath": "output/flags/gq.webp"
+    },
+    {
+      "name": "Eritrea",
+      "slug": "eritrea",
+      "isoCode": "er",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/er.webp",
+      "pageUrl": "https://flagpedia.net/eritrea",
+      "area": 117600,
+      "population": 3497117,
+      "localPath": "output/flags/er.webp"
+    },
+    {
+      "name": "Estonia",
+      "slug": "estonia",
+      "isoCode": "ee",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ee.webp",
+      "pageUrl": "https://flagpedia.net/estonia",
+      "area": 45227,
+      "population": 1328360,
+      "localPath": "output/flags/ee.webp"
+    },
+    {
+      "name": "Eswatini",
+      "slug": "swaziland",
+      "isoCode": "sz",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/sz.webp",
+      "pageUrl": "https://flagpedia.net/swaziland",
+      "area": 17364,
+      "population": 1093238,
+      "localPath": "output/flags/sz.webp"
+    },
+    {
+      "name": "Ethiopia",
+      "slug": "ethiopia",
+      "isoCode": "et",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/et.webp",
+      "pageUrl": "https://flagpedia.net/ethiopia",
+      "area": 1104300,
+      "population": 98665000,
+      "localPath": "output/flags/et.webp"
+    },
+    {
+      "name": "Falkland Islands",
+      "slug": "falkland-islands",
+      "isoCode": "fk",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/fk.webp",
+      "pageUrl": "https://flagpedia.net/falkland-islands",
+      "area": 12173,
+      "population": 3198,
+      "localPath": "output/flags/fk.webp"
+    },
+    {
+      "name": "Faroe Islands",
+      "slug": "faroe-islands",
+      "isoCode": "fo",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/fo.webp",
+      "pageUrl": "https://flagpedia.net/faroe-islands",
+      "area": 1393,
+      "population": 52124,
+      "localPath": "output/flags/fo.webp"
+    },
+    {
+      "name": "Fiji",
+      "slug": "fiji",
+      "isoCode": "fj",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/fj.webp",
+      "pageUrl": "https://flagpedia.net/fiji",
+      "area": 18272,
+      "population": 884887,
+      "localPath": "output/flags/fj.webp"
+    },
+    {
+      "name": "Finland",
+      "slug": "finland",
+      "isoCode": "fi",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/fi.webp",
+      "pageUrl": "https://flagpedia.net/finland",
+      "area": 338424,
+      "population": 5527573,
+      "localPath": "output/flags/fi.webp"
+    },
+    {
+      "name": "France",
+      "slug": "france",
+      "isoCode": "fr",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/fr.webp",
+      "pageUrl": "https://flagpedia.net/france",
+      "area": 640679,
+      "population": 67064000,
+      "localPath": "output/flags/fr.webp"
+    },
+    {
+      "name": "French Guiana",
+      "slug": "french-guiana",
+      "isoCode": "gf",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/gf.webp",
+      "pageUrl": "https://flagpedia.net/french-guiana",
+      "area": 83534,
+      "population": 290691,
+      "localPath": "output/flags/gf.webp"
+    },
+    {
+      "name": "French Polynesia",
+      "slug": "french-polynesia",
+      "isoCode": "pf",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/pf.webp",
+      "pageUrl": "https://flagpedia.net/french-polynesia",
+      "area": 4167,
+      "population": 275918,
+      "localPath": "output/flags/pf.webp"
+    },
+    {
+      "name": "French Southern and Antarctic Lands",
+      "slug": "french-southern-and-antarctic-lands",
+      "isoCode": "tf",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/tf.webp",
+      "pageUrl": "https://flagpedia.net/french-southern-and-antarctic-lands",
+      "area": 7747,
+      "population": 0,
+      "localPath": "output/flags/tf.webp"
+    },
+    {
+      "name": "Gabon",
+      "slug": "gabon",
+      "isoCode": "ga",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ga.webp",
+      "pageUrl": "https://flagpedia.net/gabon",
+      "area": 267668,
+      "population": 2172579,
+      "localPath": "output/flags/ga.webp"
+    },
+    {
+      "name": "Gambia",
+      "slug": "the-gambia",
+      "isoCode": "gm",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/gm.webp",
+      "pageUrl": "https://flagpedia.net/the-gambia",
+      "area": 11295,
+      "population": 2347706,
+      "localPath": "output/flags/gm.webp"
+    },
+    {
+      "name": "Georgia",
+      "slug": "georgia",
+      "isoCode": "ge",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ge.webp",
+      "pageUrl": "https://flagpedia.net/georgia",
+      "area": 69700,
+      "population": 3723464,
+      "localPath": "output/flags/ge.webp"
+    },
+    {
+      "name": "Germany",
+      "slug": "germany",
+      "isoCode": "de",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/de.webp",
+      "pageUrl": "https://flagpedia.net/germany",
+      "area": 357114,
+      "population": 83149300,
+      "localPath": "output/flags/de.webp"
+    },
+    {
+      "name": "Ghana",
+      "slug": "ghana",
+      "isoCode": "gh",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/gh.webp",
+      "pageUrl": "https://flagpedia.net/ghana",
+      "area": 238533,
+      "population": 30280811,
+      "localPath": "output/flags/gh.webp"
+    },
+    {
+      "name": "Gibraltar",
+      "slug": "gibraltar",
+      "isoCode": "gi",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/gi.webp",
+      "pageUrl": "https://flagpedia.net/gibraltar",
+      "area": 6,
+      "population": 33701,
+      "localPath": "output/flags/gi.webp"
+    },
+    {
+      "name": "Greece",
+      "slug": "greece",
+      "isoCode": "gr",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/gr.webp",
+      "pageUrl": "https://flagpedia.net/greece",
+      "area": 131957,
+      "population": 10724599,
+      "localPath": "output/flags/gr.webp"
+    },
+    {
+      "name": "Greenland",
+      "slug": "greenland",
+      "isoCode": "gl",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/gl.webp",
+      "pageUrl": "https://flagpedia.net/greenland",
+      "area": 2166090,
+      "population": 56081,
+      "localPath": "output/flags/gl.webp"
+    },
+    {
+      "name": "Grenada",
+      "slug": "grenada",
+      "isoCode": "gd",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/gd.webp",
+      "pageUrl": "https://flagpedia.net/grenada",
+      "area": 344,
+      "population": 112003,
+      "localPath": "output/flags/gd.webp"
+    },
+    {
+      "name": "Guadeloupe",
+      "slug": "guadeloupe",
+      "isoCode": "gp",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/gp.webp",
+      "pageUrl": "https://flagpedia.net/guadeloupe",
+      "area": 1628,
+      "population": 395700,
+      "localPath": "output/flags/gp.webp"
+    },
+    {
+      "name": "Guam",
+      "slug": "guam",
+      "isoCode": "gu",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/gu.webp",
+      "pageUrl": "https://flagpedia.net/guam",
+      "area": 549,
+      "population": 172400,
+      "localPath": "output/flags/gu.webp"
+    },
+    {
+      "name": "Guatemala",
+      "slug": "guatemala",
+      "isoCode": "gt",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/gt.webp",
+      "pageUrl": "https://flagpedia.net/guatemala",
+      "area": 108889,
+      "population": 16604026,
+      "localPath": "output/flags/gt.webp"
+    },
+    {
+      "name": "Guernsey",
+      "slug": "guernsey",
+      "isoCode": "gg",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/gg.webp",
+      "pageUrl": "https://flagpedia.net/guernsey",
+      "area": 78,
+      "population": 62792,
+      "localPath": "output/flags/gg.webp"
+    },
+    {
+      "name": "Guinea",
+      "slug": "guinea",
+      "isoCode": "gn",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/gn.webp",
+      "pageUrl": "https://flagpedia.net/guinea",
+      "area": 245857,
+      "population": 12218357,
+      "localPath": "output/flags/gn.webp"
+    },
+    {
+      "name": "Guinea-Bissau",
+      "slug": "guinea-bissau",
+      "isoCode": "gw",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/gw.webp",
+      "pageUrl": "https://flagpedia.net/guinea-bissau",
+      "area": 36125,
+      "population": 1604528,
+      "localPath": "output/flags/gw.webp"
+    },
+    {
+      "name": "Guyana",
+      "slug": "guyana",
+      "isoCode": "gy",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/gy.webp",
+      "pageUrl": "https://flagpedia.net/guyana",
+      "area": 214969,
+      "population": 782766,
+      "localPath": "output/flags/gy.webp"
+    },
+    {
+      "name": "Haiti",
+      "slug": "haiti",
+      "isoCode": "ht",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ht.webp",
+      "pageUrl": "https://flagpedia.net/haiti",
+      "area": 27750,
+      "population": 11577779,
+      "localPath": "output/flags/ht.webp"
+    },
+    {
+      "name": "Heard Island and McDonald Islands",
+      "slug": "heard-island-and-mcdonald-islands",
+      "isoCode": "hm",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/hm.webp",
+      "pageUrl": "https://flagpedia.net/heard-island-and-mcdonald-islands",
+      "area": 412,
+      "population": 0,
+      "localPath": "output/flags/hm.webp"
+    },
+    {
+      "name": "Honduras",
+      "slug": "honduras",
+      "isoCode": "hn",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/hn.webp",
+      "pageUrl": "https://flagpedia.net/honduras",
+      "area": 112492,
+      "population": 9158345,
+      "localPath": "output/flags/hn.webp"
+    },
+    {
+      "name": "Hong Kong",
+      "slug": "hong-kong",
+      "isoCode": "hk",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/hk.webp",
+      "pageUrl": "https://flagpedia.net/hong-kong",
+      "area": 1104,
+      "population": 7500700,
+      "localPath": "output/flags/hk.webp"
+    },
+    {
+      "name": "Hungary",
+      "slug": "hungary",
+      "isoCode": "hu",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/hu.webp",
+      "pageUrl": "https://flagpedia.net/hungary",
+      "area": 93028,
+      "population": 9772756,
+      "localPath": "output/flags/hu.webp"
+    },
+    {
+      "name": "Iceland",
+      "slug": "iceland",
+      "isoCode": "is",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/is.webp",
+      "pageUrl": "https://flagpedia.net/iceland",
+      "area": 103000,
+      "population": 364260,
+      "localPath": "output/flags/is.webp"
+    },
+    {
+      "name": "India",
+      "slug": "india",
+      "isoCode": "in",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/in.webp",
+      "pageUrl": "https://flagpedia.net/india",
+      "area": 3287260,
+      "population": 1359072550,
+      "localPath": "output/flags/in.webp"
+    },
+    {
+      "name": "Indonesia",
+      "slug": "indonesia",
+      "isoCode": "id",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/id.webp",
+      "pageUrl": "https://flagpedia.net/indonesia",
+      "area": 1910930,
+      "population": 266911900,
+      "localPath": "output/flags/id.webp"
+    },
+    {
+      "name": "Iran",
+      "slug": "iran",
+      "isoCode": "ir",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ir.webp",
+      "pageUrl": "https://flagpedia.net/iran",
+      "area": 1648200,
+      "population": 83230120,
+      "localPath": "output/flags/ir.webp"
+    },
+    {
+      "name": "Iraq",
+      "slug": "iraq",
+      "isoCode": "iq",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/iq.webp",
+      "pageUrl": "https://flagpedia.net/iraq",
+      "area": 438317,
+      "population": 39127900,
+      "localPath": "output/flags/iq.webp"
+    },
+    {
+      "name": "Ireland",
+      "slug": "ireland",
+      "isoCode": "ie",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ie.webp",
+      "pageUrl": "https://flagpedia.net/ireland",
+      "area": 70273,
+      "population": 4921500,
+      "localPath": "output/flags/ie.webp"
+    },
+    {
+      "name": "Isle of Man",
+      "slug": "isle-of-man",
+      "isoCode": "im",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/im.webp",
+      "pageUrl": "https://flagpedia.net/isle-of-man",
+      "area": 572,
+      "population": 83314,
+      "localPath": "output/flags/im.webp"
+    },
+    {
+      "name": "Israel",
+      "slug": "israel",
+      "isoCode": "il",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/il.webp",
+      "pageUrl": "https://flagpedia.net/israel",
+      "area": 20770,
+      "population": 9164160,
+      "localPath": "output/flags/il.webp"
+    },
+    {
+      "name": "Italy",
+      "slug": "italy",
+      "isoCode": "it",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/it.webp",
+      "pageUrl": "https://flagpedia.net/italy",
+      "area": 301339,
+      "population": 60247214,
+      "localPath": "output/flags/it.webp"
+    },
+    {
+      "name": "Jamaica",
+      "slug": "jamaica",
+      "isoCode": "jm",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/jm.webp",
+      "pageUrl": "https://flagpedia.net/jamaica",
+      "area": 10991,
+      "population": 2726667,
+      "localPath": "output/flags/jm.webp"
+    },
+    {
+      "name": "Japan",
+      "slug": "japan",
+      "isoCode": "jp",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/jp.webp",
+      "pageUrl": "https://flagpedia.net/japan",
+      "area": 377975,
+      "population": 126010000,
+      "localPath": "output/flags/jp.webp"
+    },
+    {
+      "name": "Jersey",
+      "slug": "jersey",
+      "isoCode": "je",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/je.webp",
+      "pageUrl": "https://flagpedia.net/jersey",
+      "area": 116,
+      "population": 106800,
+      "localPath": "output/flags/je.webp"
+    },
+    {
+      "name": "Jordan",
+      "slug": "jordan",
+      "isoCode": "jo",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/jo.webp",
+      "pageUrl": "https://flagpedia.net/jordan",
+      "area": 89342,
+      "population": 10622608,
+      "localPath": "output/flags/jo.webp"
+    },
+    {
+      "name": "Kazakhstan",
+      "slug": "kazakhstan",
+      "isoCode": "kz",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/kz.webp",
+      "pageUrl": "https://flagpedia.net/kazakhstan",
+      "area": 2724900,
+      "population": 18651680,
+      "localPath": "output/flags/kz.webp"
+    },
+    {
+      "name": "Kenya",
+      "slug": "kenya",
+      "isoCode": "ke",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ke.webp",
+      "pageUrl": "https://flagpedia.net/kenya",
+      "area": 580367,
+      "population": 47564296,
+      "localPath": "output/flags/ke.webp"
+    },
+    {
+      "name": "Kiribati",
+      "slug": "kiribati",
+      "isoCode": "ki",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ki.webp",
+      "pageUrl": "https://flagpedia.net/kiribati",
+      "area": 811,
+      "population": 120100,
+      "localPath": "output/flags/ki.webp"
+    },
+    {
+      "name": "North Korea",
+      "slug": "north-korea",
+      "isoCode": "kp",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/kp.webp",
+      "pageUrl": "https://flagpedia.net/north-korea",
+      "area": 120540,
+      "population": 25450000,
+      "localPath": "output/flags/kp.webp"
+    },
+    {
+      "name": "South Korea",
+      "slug": "south-korea",
+      "isoCode": "kr",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/kr.webp",
+      "pageUrl": "https://flagpedia.net/south-korea",
+      "area": 100210,
+      "population": 51780579,
+      "localPath": "output/flags/kr.webp"
+    },
+    {
+      "name": "Kosovo",
+      "slug": "kosovo",
+      "isoCode": "xk",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/xk.webp",
+      "pageUrl": "https://flagpedia.net/kosovo",
+      "area": 10887,
+      "population": 1795666,
+      "localPath": "output/flags/xk.webp"
+    },
+    {
+      "name": "Kuwait",
+      "slug": "kuwait",
+      "isoCode": "kw",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/kw.webp",
+      "pageUrl": "https://flagpedia.net/kuwait",
+      "area": 17818,
+      "population": 4420110,
+      "localPath": "output/flags/kw.webp"
+    },
+    {
+      "name": "Kyrgyzstan",
+      "slug": "kyrgyzstan",
+      "isoCode": "kg",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/kg.webp",
+      "pageUrl": "https://flagpedia.net/kyrgyzstan",
+      "area": 199951,
+      "population": 6490300,
+      "localPath": "output/flags/kg.webp"
+    },
+    {
+      "name": "Laos",
+      "slug": "laos",
+      "isoCode": "la",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/la.webp",
+      "pageUrl": "https://flagpedia.net/laos",
+      "area": 236800,
+      "population": 7123205,
+      "localPath": "output/flags/la.webp"
+    },
+    {
+      "name": "Latvia",
+      "slug": "latvia",
+      "isoCode": "lv",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/lv.webp",
+      "pageUrl": "https://flagpedia.net/latvia",
+      "area": 64559,
+      "population": 1906800,
+      "localPath": "output/flags/lv.webp"
+    },
+    {
+      "name": "Lebanon",
+      "slug": "lebanon",
+      "isoCode": "lb",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/lb.webp",
+      "pageUrl": "https://flagpedia.net/lebanon",
+      "area": 10452,
+      "population": 6855713,
+      "localPath": "output/flags/lb.webp"
+    },
+    {
+      "name": "Lesotho",
+      "slug": "lesotho",
+      "isoCode": "ls",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ls.webp",
+      "pageUrl": "https://flagpedia.net/lesotho",
+      "area": 30355,
+      "population": 2007201,
+      "localPath": "output/flags/ls.webp"
+    },
+    {
+      "name": "Liberia",
+      "slug": "liberia",
+      "isoCode": "lr",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/lr.webp",
+      "pageUrl": "https://flagpedia.net/liberia",
+      "area": 111369,
+      "population": 4475353,
+      "localPath": "output/flags/lr.webp"
+    },
+    {
+      "name": "Libya",
+      "slug": "libya",
+      "isoCode": "ly",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ly.webp",
+      "pageUrl": "https://flagpedia.net/libya",
+      "area": 1759540,
+      "population": 6777452,
+      "localPath": "output/flags/ly.webp"
+    },
+    {
+      "name": "Liechtenstein",
+      "slug": "liechtenstein",
+      "isoCode": "li",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/li.webp",
+      "pageUrl": "https://flagpedia.net/liechtenstein",
+      "area": 160,
+      "population": 38557,
+      "localPath": "output/flags/li.webp"
+    },
+    {
+      "name": "Lithuania",
+      "slug": "lithuania",
+      "isoCode": "lt",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/lt.webp",
+      "pageUrl": "https://flagpedia.net/lithuania",
+      "area": 65300,
+      "population": 2793350,
+      "localPath": "output/flags/lt.webp"
+    },
+    {
+      "name": "Luxembourg",
+      "slug": "luxembourg",
+      "isoCode": "lu",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/lu.webp",
+      "pageUrl": "https://flagpedia.net/luxembourg",
+      "area": 2586,
+      "population": 613894,
+      "localPath": "output/flags/lu.webp"
+    },
+    {
+      "name": "Macau",
+      "slug": "macau",
+      "isoCode": "mo",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/mo.webp",
+      "pageUrl": "https://flagpedia.net/macau",
+      "area": 30,
+      "population": 676100,
+      "localPath": "output/flags/mo.webp"
+    },
+    {
+      "name": "Madagascar",
+      "slug": "madagascar",
+      "isoCode": "mg",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/mg.webp",
+      "pageUrl": "https://flagpedia.net/madagascar",
+      "area": 587041,
+      "population": 25680342,
+      "localPath": "output/flags/mg.webp"
+    },
+    {
+      "name": "Malawi",
+      "slug": "malawi",
+      "isoCode": "mw",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/mw.webp",
+      "pageUrl": "https://flagpedia.net/malawi",
+      "area": 118484,
+      "population": 17563749,
+      "localPath": "output/flags/mw.webp"
+    },
+    {
+      "name": "Malaysia",
+      "slug": "malaysia",
+      "isoCode": "my",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/my.webp",
+      "pageUrl": "https://flagpedia.net/malaysia",
+      "area": 330803,
+      "population": 32700760,
+      "localPath": "output/flags/my.webp"
+    },
+    {
+      "name": "Maldives",
+      "slug": "maldives",
+      "isoCode": "mv",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/mv.webp",
+      "pageUrl": "https://flagpedia.net/maldives",
+      "area": 300,
+      "population": 374775,
+      "localPath": "output/flags/mv.webp"
+    },
+    {
+      "name": "Mali",
+      "slug": "mali",
+      "isoCode": "ml",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ml.webp",
+      "pageUrl": "https://flagpedia.net/mali",
+      "area": 1240190,
+      "population": 19973000,
+      "localPath": "output/flags/ml.webp"
+    },
+    {
+      "name": "Malta",
+      "slug": "malta",
+      "isoCode": "mt",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/mt.webp",
+      "pageUrl": "https://flagpedia.net/malta",
+      "area": 316,
+      "population": 493559,
+      "localPath": "output/flags/mt.webp"
+    },
+    {
+      "name": "Marshall Islands",
+      "slug": "the-marshall-islands",
+      "isoCode": "mh",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/mh.webp",
+      "pageUrl": "https://flagpedia.net/the-marshall-islands",
+      "area": 181,
+      "population": 55500,
+      "localPath": "output/flags/mh.webp"
+    },
+    {
+      "name": "Martinique",
+      "slug": "martinique",
+      "isoCode": "mq",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/mq.webp",
+      "pageUrl": "https://flagpedia.net/martinique",
+      "area": 1128,
+      "population": 376480,
+      "localPath": "output/flags/mq.webp"
+    },
+    {
+      "name": "Mauritania",
+      "slug": "mauritania",
+      "isoCode": "mr",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/mr.webp",
+      "pageUrl": "https://flagpedia.net/mauritania",
+      "area": 1030700,
+      "population": 4077347,
+      "localPath": "output/flags/mr.webp"
+    },
+    {
+      "name": "Mauritius",
+      "slug": "mauritius",
+      "isoCode": "mu",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/mu.webp",
+      "pageUrl": "https://flagpedia.net/mauritius",
+      "area": 2040,
+      "population": 1265985,
+      "localPath": "output/flags/mu.webp"
+    },
+    {
+      "name": "Mayotte",
+      "slug": "mayotte",
+      "isoCode": "yt",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/yt.webp",
+      "pageUrl": "https://flagpedia.net/mayotte",
+      "area": 374,
+      "population": 279471,
+      "localPath": "output/flags/yt.webp"
+    },
+    {
+      "name": "Mexico",
+      "slug": "mexico",
+      "isoCode": "mx",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/mx.webp",
+      "pageUrl": "https://flagpedia.net/mexico",
+      "area": 1964380,
+      "population": 126577691,
+      "localPath": "output/flags/mx.webp"
+    },
+    {
+      "name": "Micronesia",
+      "slug": "micronesia",
+      "isoCode": "fm",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/fm.webp",
+      "pageUrl": "https://flagpedia.net/micronesia",
+      "area": 702,
+      "population": 104468,
+      "localPath": "output/flags/fm.webp"
+    },
+    {
+      "name": "Moldova",
+      "slug": "moldova",
+      "isoCode": "md",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/md.webp",
+      "pageUrl": "https://flagpedia.net/moldova",
+      "area": 33846,
+      "population": 2681735,
+      "localPath": "output/flags/md.webp"
+    },
+    {
+      "name": "Monaco",
+      "slug": "monaco",
+      "isoCode": "mc",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/mc.webp",
+      "pageUrl": "https://flagpedia.net/monaco",
+      "area": 2.02,
+      "population": 38300,
+      "localPath": "output/flags/mc.webp"
+    },
+    {
+      "name": "Mongolia",
+      "slug": "mongolia",
+      "isoCode": "mn",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/mn.webp",
+      "pageUrl": "https://flagpedia.net/mongolia",
+      "area": 1564110,
+      "population": 3304526,
+      "localPath": "output/flags/mn.webp"
+    },
+    {
+      "name": "Montenegro",
+      "slug": "montenegro",
+      "isoCode": "me",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/me.webp",
+      "pageUrl": "https://flagpedia.net/montenegro",
+      "area": 13812,
+      "population": 622359,
+      "localPath": "output/flags/me.webp"
+    },
+    {
+      "name": "Montserrat",
+      "slug": "montserrat",
+      "isoCode": "ms",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ms.webp",
+      "pageUrl": "https://flagpedia.net/montserrat",
+      "area": 102,
+      "population": 4989,
+      "localPath": "output/flags/ms.webp"
+    },
+    {
+      "name": "Morocco",
+      "slug": "morocco",
+      "isoCode": "ma",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ma.webp",
+      "pageUrl": "https://flagpedia.net/morocco",
+      "area": 446550,
+      "population": 35821024,
+      "localPath": "output/flags/ma.webp"
+    },
+    {
+      "name": "Mozambique",
+      "slug": "mozambique",
+      "isoCode": "mz",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/mz.webp",
+      "pageUrl": "https://flagpedia.net/mozambique",
+      "area": 801590,
+      "population": 28571310,
+      "localPath": "output/flags/mz.webp"
+    },
+    {
+      "name": "Myanmar",
+      "slug": "myanmar",
+      "isoCode": "mm",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/mm.webp",
+      "pageUrl": "https://flagpedia.net/myanmar",
+      "area": 676578,
+      "population": 54339766,
+      "localPath": "output/flags/mm.webp"
+    },
+    {
+      "name": "Namibia",
+      "slug": "namibia",
+      "isoCode": "na",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/na.webp",
+      "pageUrl": "https://flagpedia.net/namibia",
+      "area": 825615,
+      "population": 2458936,
+      "localPath": "output/flags/na.webp"
+    },
+    {
+      "name": "Nauru",
+      "slug": "nauru",
+      "isoCode": "nr",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/nr.webp",
+      "pageUrl": "https://flagpedia.net/nauru",
+      "area": 21,
+      "population": 11000,
+      "localPath": "output/flags/nr.webp"
+    },
+    {
+      "name": "Nepal",
+      "slug": "nepal",
+      "isoCode": "np",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/np.webp",
+      "pageUrl": "https://flagpedia.net/nepal",
+      "area": 147181,
+      "population": 29609623,
+      "localPath": "output/flags/np.webp"
+    },
+    {
+      "name": "Netherlands",
+      "slug": "the-netherlands",
+      "isoCode": "nl",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/nl.webp",
+      "pageUrl": "https://flagpedia.net/the-netherlands",
+      "area": 41850,
+      "population": 17438081,
+      "localPath": "output/flags/nl.webp"
+    },
+    {
+      "name": "New Caledonia",
+      "slug": "new-caledonia",
+      "isoCode": "nc",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/nc.webp",
+      "pageUrl": "https://flagpedia.net/new-caledonia",
+      "area": 18575,
+      "population": 282200,
+      "localPath": "output/flags/nc.webp"
+    },
+    {
+      "name": "New Zealand",
+      "slug": "new-zealand",
+      "isoCode": "nz",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/nz.webp",
+      "pageUrl": "https://flagpedia.net/new-zealand",
+      "area": 270467,
+      "population": 4961213,
+      "localPath": "output/flags/nz.webp"
+    },
+    {
+      "name": "Nicaragua",
+      "slug": "nicaragua",
+      "isoCode": "ni",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ni.webp",
+      "pageUrl": "https://flagpedia.net/nicaragua",
+      "area": 130373,
+      "population": 6460411,
+      "localPath": "output/flags/ni.webp"
+    },
+    {
+      "name": "Niger",
+      "slug": "niger",
+      "isoCode": "ne",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ne.webp",
+      "pageUrl": "https://flagpedia.net/niger",
+      "area": 1267000,
+      "population": 22314743,
+      "localPath": "output/flags/ne.webp"
+    },
+    {
+      "name": "Nigeria",
+      "slug": "nigeria",
+      "isoCode": "ng",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ng.webp",
+      "pageUrl": "https://flagpedia.net/nigeria",
+      "area": 923768,
+      "population": 200963599,
+      "localPath": "output/flags/ng.webp"
+    },
+    {
+      "name": "Niue",
+      "slug": "niue",
+      "isoCode": "nu",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/nu.webp",
+      "pageUrl": "https://flagpedia.net/niue",
+      "area": 260,
+      "population": 1520,
+      "localPath": "output/flags/nu.webp"
+    },
+    {
+      "name": "Norfolk Island",
+      "slug": "norfolk-island",
+      "isoCode": "nf",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/nf.webp",
+      "pageUrl": "https://flagpedia.net/norfolk-island",
+      "area": 36,
+      "population": 1756,
+      "localPath": "output/flags/nf.webp"
+    },
+    {
+      "name": "North Macedonia",
+      "slug": "macedonia",
+      "isoCode": "mk",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/mk.webp",
+      "pageUrl": "https://flagpedia.net/macedonia",
+      "area": 25713,
+      "population": 2077132,
+      "localPath": "output/flags/mk.webp"
+    },
+    {
+      "name": "Northern Ireland",
+      "slug": "northern-ireland",
+      "isoCode": "gb-nir",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/gb-nir.webp",
+      "pageUrl": "https://flagpedia.net/northern-ireland",
+      "area": 14130,
+      "population": 1885400,
+      "localPath": "output/flags/gb-nir.webp"
+    },
+    {
+      "name": "Northern Mariana Islands",
+      "slug": "northern-mariana-islands",
+      "isoCode": "mp",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/mp.webp",
+      "pageUrl": "https://flagpedia.net/northern-mariana-islands",
+      "area": 464,
+      "population": 56200,
+      "localPath": "output/flags/mp.webp"
+    },
+    {
+      "name": "Norway",
+      "slug": "norway",
+      "isoCode": "no",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/no.webp",
+      "pageUrl": "https://flagpedia.net/norway",
+      "area": 323802,
+      "population": 5356789,
+      "localPath": "output/flags/no.webp"
+    },
+    {
+      "name": "Oman",
+      "slug": "oman",
+      "isoCode": "om",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/om.webp",
+      "pageUrl": "https://flagpedia.net/oman",
+      "area": 309500,
+      "population": 4664790,
+      "localPath": "output/flags/om.webp"
+    },
+    {
+      "name": "Pakistan",
+      "slug": "pakistan",
+      "isoCode": "pk",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/pk.webp",
+      "pageUrl": "https://flagpedia.net/pakistan",
+      "area": 907132,
+      "population": 218741520,
+      "localPath": "output/flags/pk.webp"
+    },
+    {
+      "name": "Palau",
+      "slug": "palau",
+      "isoCode": "pw",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/pw.webp",
+      "pageUrl": "https://flagpedia.net/palau",
+      "area": 459,
+      "population": 17900,
+      "localPath": "output/flags/pw.webp"
+    },
+    {
+      "name": "Palestine",
+      "slug": "palestine",
+      "isoCode": "ps",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ps.webp",
+      "pageUrl": "https://flagpedia.net/palestine",
+      "area": 6020,
+      "population": 5051953,
+      "localPath": "output/flags/ps.webp"
+    },
+    {
+      "name": "Panama",
+      "slug": "panama",
+      "isoCode": "pa",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/pa.webp",
+      "pageUrl": "https://flagpedia.net/panama",
+      "area": 75417,
+      "population": 4218808,
+      "localPath": "output/flags/pa.webp"
+    },
+    {
+      "name": "Papua New Guinea",
+      "slug": "papua-new-guinea",
+      "isoCode": "pg",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/pg.webp",
+      "pageUrl": "https://flagpedia.net/papua-new-guinea",
+      "area": 462840,
+      "population": 8935000,
+      "localPath": "output/flags/pg.webp"
+    },
+    {
+      "name": "Paraguay",
+      "slug": "paraguay",
+      "isoCode": "py",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/py.webp",
+      "pageUrl": "https://flagpedia.net/paraguay",
+      "area": 406752,
+      "population": 7152703,
+      "localPath": "output/flags/py.webp"
+    },
+    {
+      "name": "Peru",
+      "slug": "peru",
+      "isoCode": "pe",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/pe.webp",
+      "pageUrl": "https://flagpedia.net/peru",
+      "area": 1285220,
+      "population": 32131400,
+      "localPath": "output/flags/pe.webp"
+    },
+    {
+      "name": "Philippines",
+      "slug": "the-philippines",
+      "isoCode": "ph",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ph.webp",
+      "pageUrl": "https://flagpedia.net/the-philippines",
+      "area": 300000,
+      "population": 108323702,
+      "localPath": "output/flags/ph.webp"
+    },
+    {
+      "name": "Pitcairn Islands",
+      "slug": "pitcairn-islands",
+      "isoCode": "pn",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/pn.webp",
+      "pageUrl": "https://flagpedia.net/pitcairn-islands",
+      "area": 47,
+      "population": 50,
+      "localPath": "output/flags/pn.webp"
+    },
+    {
+      "name": "Poland",
+      "slug": "poland",
+      "isoCode": "pl",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/pl.webp",
+      "pageUrl": "https://flagpedia.net/poland",
+      "area": 312696,
+      "population": 38386000,
+      "localPath": "output/flags/pl.webp"
+    },
+    {
+      "name": "Portugal",
+      "slug": "portugal",
+      "isoCode": "pt",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/pt.webp",
+      "pageUrl": "https://flagpedia.net/portugal",
+      "area": 92090,
+      "population": 10276617,
+      "localPath": "output/flags/pt.webp"
+    },
+    {
+      "name": "Puerto Rico",
+      "slug": "puerto-rico",
+      "isoCode": "pr",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/pr.webp",
+      "pageUrl": "https://flagpedia.net/puerto-rico",
+      "area": 8870,
+      "population": 3193694,
+      "localPath": "output/flags/pr.webp"
+    },
+    {
+      "name": "Qatar",
+      "slug": "qatar",
+      "isoCode": "qa",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/qa.webp",
+      "pageUrl": "https://flagpedia.net/qatar",
+      "area": 11586,
+      "population": 2747282,
+      "localPath": "output/flags/qa.webp"
+    },
+    {
+      "name": "Réunion",
+      "slug": "reunion",
+      "isoCode": "re",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/re.webp",
+      "pageUrl": "https://flagpedia.net/reunion",
+      "area": 2511,
+      "population": 859959,
+      "localPath": "output/flags/re.webp"
+    },
+    {
+      "name": "Romania",
+      "slug": "romania",
+      "isoCode": "ro",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ro.webp",
+      "pageUrl": "https://flagpedia.net/romania",
+      "area": 238397,
+      "population": 19405156,
+      "localPath": "output/flags/ro.webp"
+    },
+    {
+      "name": "Russia",
+      "slug": "russia",
+      "isoCode": "ru",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ru.webp",
+      "pageUrl": "https://flagpedia.net/russia",
+      "area": 17098200,
+      "population": 146780720,
+      "localPath": "output/flags/ru.webp"
+    },
+    {
+      "name": "Rwanda",
+      "slug": "rwanda",
+      "isoCode": "rw",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/rw.webp",
+      "pageUrl": "https://flagpedia.net/rwanda",
+      "area": 26338,
+      "population": 12374397,
+      "localPath": "output/flags/rw.webp"
+    },
+    {
+      "name": "Saint Barthélemy",
+      "slug": "saint-barthelemy",
+      "isoCode": "bl",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/bl.webp",
+      "pageUrl": "https://flagpedia.net/saint-barthelemy",
+      "area": 21,
+      "population": 9793,
+      "localPath": "output/flags/bl.webp"
+    },
+    {
+      "name": "Saint Helena, Ascension and Tristan da Cunha",
+      "slug": "saint-helena-ascension-and-tristan-da-cunha",
+      "isoCode": "sh",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/sh.webp",
+      "pageUrl": "https://flagpedia.net/saint-helena-ascension-and-tristan-da-cunha",
+      "area": 394,
+      "population": 5633,
+      "localPath": "output/flags/sh.webp"
+    },
+    {
+      "name": "Saint Kitts and Nevis",
+      "slug": "saint-kitts-and-nevis",
+      "isoCode": "kn",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/kn.webp",
+      "pageUrl": "https://flagpedia.net/saint-kitts-and-nevis",
+      "area": 261,
+      "population": 52823,
+      "localPath": "output/flags/kn.webp"
+    },
+    {
+      "name": "Saint Lucia",
+      "slug": "saint-lucia",
+      "isoCode": "lc",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/lc.webp",
+      "pageUrl": "https://flagpedia.net/saint-lucia",
+      "area": 616,
+      "population": 178696,
+      "localPath": "output/flags/lc.webp"
+    },
+    {
+      "name": "Saint Martin",
+      "slug": "saint-martin",
+      "isoCode": "mf",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/mf.webp",
+      "pageUrl": "https://flagpedia.net/saint-martin",
+      "area": 53,
+      "population": 35107,
+      "localPath": "output/flags/mf.webp"
+    },
+    {
+      "name": "Saint Pierre and Miquelon",
+      "slug": "saint-pierre-and-miquelon",
+      "isoCode": "pm",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/pm.webp",
+      "pageUrl": "https://flagpedia.net/saint-pierre-and-miquelon",
+      "area": 242,
+      "population": 6008,
+      "localPath": "output/flags/pm.webp"
+    },
+    {
+      "name": "Saint Vincent and the Grenadines",
+      "slug": "saint-vincent-and-the-grenadines",
+      "isoCode": "vc",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/vc.webp",
+      "pageUrl": "https://flagpedia.net/saint-vincent-and-the-grenadines",
+      "area": 389,
+      "population": 110608,
+      "localPath": "output/flags/vc.webp"
+    },
+    {
+      "name": "Samoa",
+      "slug": "samoa",
+      "isoCode": "ws",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ws.webp",
+      "pageUrl": "https://flagpedia.net/samoa",
+      "area": 2842,
+      "population": 200874,
+      "localPath": "output/flags/ws.webp"
+    },
+    {
+      "name": "San Marino",
+      "slug": "san-marino",
+      "isoCode": "sm",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/sm.webp",
+      "pageUrl": "https://flagpedia.net/san-marino",
+      "area": 61,
+      "population": 33574,
+      "localPath": "output/flags/sm.webp"
+    },
+    {
+      "name": "São Tomé and Príncipe",
+      "slug": "sao-tome-and-principe",
+      "isoCode": "st",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/st.webp",
+      "pageUrl": "https://flagpedia.net/sao-tome-and-principe",
+      "area": 964,
+      "population": 201784,
+      "localPath": "output/flags/st.webp"
+    },
+    {
+      "name": "Saudi Arabia",
+      "slug": "saudi-arabia",
+      "isoCode": "sa",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/sa.webp",
+      "pageUrl": "https://flagpedia.net/saudi-arabia",
+      "area": 2149690,
+      "population": 34218169,
+      "localPath": "output/flags/sa.webp"
+    },
+    {
+      "name": "Scotland",
+      "slug": "scotland",
+      "isoCode": "gb-sct",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/gb-sct.webp",
+      "pageUrl": "https://flagpedia.net/scotland",
+      "area": 77933,
+      "population": 5424800,
+      "localPath": "output/flags/gb-sct.webp"
+    },
+    {
+      "name": "Senegal",
+      "slug": "senegal",
+      "isoCode": "sn",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/sn.webp",
+      "pageUrl": "https://flagpedia.net/senegal",
+      "area": 196722,
+      "population": 16209125,
+      "localPath": "output/flags/sn.webp"
+    },
+    {
+      "name": "Serbia",
+      "slug": "serbia",
+      "isoCode": "rs",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/rs.webp",
+      "pageUrl": "https://flagpedia.net/serbia",
+      "area": 88361,
+      "population": 6963764,
+      "localPath": "output/flags/rs.webp"
+    },
+    {
+      "name": "Seychelles",
+      "slug": "the-seychelles",
+      "isoCode": "sc",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/sc.webp",
+      "pageUrl": "https://flagpedia.net/the-seychelles",
+      "area": 452,
+      "population": 97625,
+      "localPath": "output/flags/sc.webp"
+    },
+    {
+      "name": "Sierra Leone",
+      "slug": "sierra-leone",
+      "isoCode": "sl",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/sl.webp",
+      "pageUrl": "https://flagpedia.net/sierra-leone",
+      "area": 71740,
+      "population": 7901454,
+      "localPath": "output/flags/sl.webp"
+    },
+    {
+      "name": "Singapore",
+      "slug": "singapore",
+      "isoCode": "sg",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/sg.webp",
+      "pageUrl": "https://flagpedia.net/singapore",
+      "area": 716,
+      "population": 5703600,
+      "localPath": "output/flags/sg.webp"
+    },
+    {
+      "name": "Sint Maarten",
+      "slug": "sint-maarten",
+      "isoCode": "sx",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/sx.webp",
+      "pageUrl": "https://flagpedia.net/sint-maarten",
+      "area": 34,
+      "population": 40614,
+      "localPath": "output/flags/sx.webp"
+    },
+    {
+      "name": "Slovakia",
+      "slug": "slovakia",
+      "isoCode": "sk",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/sk.webp",
+      "pageUrl": "https://flagpedia.net/slovakia",
+      "area": 49037,
+      "population": 5456362,
+      "localPath": "output/flags/sk.webp"
+    },
+    {
+      "name": "Slovenia",
+      "slug": "slovenia",
+      "isoCode": "si",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/si.webp",
+      "pageUrl": "https://flagpedia.net/slovenia",
+      "area": 20273,
+      "population": 2094060,
+      "localPath": "output/flags/si.webp"
+    },
+    {
+      "name": "Solomon Islands",
+      "slug": "the-solomon-islands",
+      "isoCode": "sb",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/sb.webp",
+      "pageUrl": "https://flagpedia.net/the-solomon-islands",
+      "area": 28896,
+      "population": 680806,
+      "localPath": "output/flags/sb.webp"
+    },
+    {
+      "name": "Somalia",
+      "slug": "somalia",
+      "isoCode": "so",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/so.webp",
+      "pageUrl": "https://flagpedia.net/somalia",
+      "area": 637657,
+      "population": 15442905,
+      "localPath": "output/flags/so.webp"
+    },
+    {
+      "name": "South Africa",
+      "slug": "south-africa",
+      "isoCode": "za",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/za.webp",
+      "pageUrl": "https://flagpedia.net/south-africa",
+      "area": 1221040,
+      "population": 58775022,
+      "localPath": "output/flags/za.webp"
+    },
+    {
+      "name": "South Georgia",
+      "slug": "south-georgia",
+      "isoCode": "gs",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/gs.webp",
+      "pageUrl": "https://flagpedia.net/south-georgia",
+      "area": 3903,
+      "population": 0,
+      "localPath": "output/flags/gs.webp"
+    },
+    {
+      "name": "South Sudan",
+      "slug": "south-sudan",
+      "isoCode": "ss",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ss.webp",
+      "pageUrl": "https://flagpedia.net/south-sudan",
+      "area": 644329,
+      "population": 12778250,
+      "localPath": "output/flags/ss.webp"
+    },
+    {
+      "name": "Spain",
+      "slug": "spain",
+      "isoCode": "es",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/es.webp",
+      "pageUrl": "https://flagpedia.net/spain",
+      "area": 505992,
+      "population": 47100396,
+      "localPath": "output/flags/es.webp"
+    },
+    {
+      "name": "Sri Lanka",
+      "slug": "sri-lanka",
+      "isoCode": "lk",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/lk.webp",
+      "pageUrl": "https://flagpedia.net/sri-lanka",
+      "area": 65610,
+      "population": 21803000,
+      "localPath": "output/flags/lk.webp"
+    },
+    {
+      "name": "Sudan",
+      "slug": "sudan",
+      "isoCode": "sd",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/sd.webp",
+      "pageUrl": "https://flagpedia.net/sudan",
+      "area": 1861480,
+      "population": 42295645,
+      "localPath": "output/flags/sd.webp"
+    },
+    {
+      "name": "Suriname",
+      "slug": "suriname",
+      "isoCode": "sr",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/sr.webp",
+      "pageUrl": "https://flagpedia.net/suriname",
+      "area": 163820,
+      "population": 581372,
+      "localPath": "output/flags/sr.webp"
+    },
+    {
+      "name": "Svalbard and Jan Mayen",
+      "slug": "svalbard-and-jan-mayen",
+      "isoCode": "sj",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/sj.webp",
+      "pageUrl": "https://flagpedia.net/svalbard-and-jan-mayen",
+      "area": 61022,
+      "population": 0,
+      "localPath": "output/flags/sj.webp"
+    },
+    {
+      "name": "Sweden",
+      "slug": "sweden",
+      "isoCode": "se",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/se.webp",
+      "pageUrl": "https://flagpedia.net/sweden",
+      "area": 450295,
+      "population": 10327589,
+      "localPath": "output/flags/se.webp"
+    },
+    {
+      "name": "Switzerland",
+      "slug": "switzerland",
+      "isoCode": "ch",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ch.webp",
+      "pageUrl": "https://flagpedia.net/switzerland",
+      "area": 41284,
+      "population": 8586550,
+      "localPath": "output/flags/ch.webp"
+    },
+    {
+      "name": "Syria",
+      "slug": "syria",
+      "isoCode": "sy",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/sy.webp",
+      "pageUrl": "https://flagpedia.net/syria",
+      "area": 185180,
+      "population": 17070135,
+      "localPath": "output/flags/sy.webp"
+    },
+    {
+      "name": "Taiwan",
+      "slug": "the-republic-of-china",
+      "isoCode": "tw",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/tw.webp",
+      "pageUrl": "https://flagpedia.net/the-republic-of-china",
+      "area": 36193,
+      "population": 23604265,
+      "localPath": "output/flags/tw.webp"
+    },
+    {
+      "name": "Tajikistan",
+      "slug": "tajikistan",
+      "isoCode": "tj",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/tj.webp",
+      "pageUrl": "https://flagpedia.net/tajikistan",
+      "area": 143100,
+      "population": 9127000,
+      "localPath": "output/flags/tj.webp"
+    },
+    {
+      "name": "Tanzania",
+      "slug": "tanzania",
+      "isoCode": "tz",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/tz.webp",
+      "pageUrl": "https://flagpedia.net/tanzania",
+      "area": 945087,
+      "population": 55890747,
+      "localPath": "output/flags/tz.webp"
+    },
+    {
+      "name": "Thailand",
+      "slug": "thailand",
+      "isoCode": "th",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/th.webp",
+      "pageUrl": "https://flagpedia.net/thailand",
+      "area": 513120,
+      "population": 66474267,
+      "localPath": "output/flags/th.webp"
+    },
+    {
+      "name": "Timor-Leste",
+      "slug": "east-timor",
+      "isoCode": "tl",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/tl.webp",
+      "pageUrl": "https://flagpedia.net/east-timor",
+      "area": 14919,
+      "population": 1387149,
+      "localPath": "output/flags/tl.webp"
+    },
+    {
+      "name": "Togo",
+      "slug": "togo",
+      "isoCode": "tg",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/tg.webp",
+      "pageUrl": "https://flagpedia.net/togo",
+      "area": 56785,
+      "population": 7538000,
+      "localPath": "output/flags/tg.webp"
+    },
+    {
+      "name": "Tokelau",
+      "slug": "tokelau",
+      "isoCode": "tk",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/tk.webp",
+      "pageUrl": "https://flagpedia.net/tokelau",
+      "area": 12,
+      "population": 1400,
+      "localPath": "output/flags/tk.webp"
+    },
+    {
+      "name": "Tonga",
+      "slug": "tonga",
+      "isoCode": "to",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/to.webp",
+      "pageUrl": "https://flagpedia.net/tonga",
+      "area": 747,
+      "population": 100651,
+      "localPath": "output/flags/to.webp"
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "slug": "trinidad-and-tobago",
+      "isoCode": "tt",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/tt.webp",
+      "pageUrl": "https://flagpedia.net/trinidad-and-tobago",
+      "area": 5130,
+      "population": 1363985,
+      "localPath": "output/flags/tt.webp"
+    },
+    {
+      "name": "Tunisia",
+      "slug": "tunisia",
+      "isoCode": "tn",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/tn.webp",
+      "pageUrl": "https://flagpedia.net/tunisia",
+      "area": 163610,
+      "population": 11722038,
+      "localPath": "output/flags/tn.webp"
+    },
+    {
+      "name": "Turkey",
+      "slug": "turkey",
+      "isoCode": "tr",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/tr.webp",
+      "pageUrl": "https://flagpedia.net/turkey",
+      "area": 783562,
+      "population": 83154997,
+      "localPath": "output/flags/tr.webp"
+    },
+    {
+      "name": "Turkmenistan",
+      "slug": "turkmenistan",
+      "isoCode": "tm",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/tm.webp",
+      "pageUrl": "https://flagpedia.net/turkmenistan",
+      "area": 488100,
+      "population": 5942089,
+      "localPath": "output/flags/tm.webp"
+    },
+    {
+      "name": "Turks and Caicos Islands",
+      "slug": "turks-and-caicos-islands",
+      "isoCode": "tc",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/tc.webp",
+      "pageUrl": "https://flagpedia.net/turks-and-caicos-islands",
+      "area": 948,
+      "population": 41369,
+      "localPath": "output/flags/tc.webp"
+    },
+    {
+      "name": "Tuvalu",
+      "slug": "tuvalu",
+      "isoCode": "tv",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/tv.webp",
+      "pageUrl": "https://flagpedia.net/tuvalu",
+      "area": 26,
+      "population": 10200,
+      "localPath": "output/flags/tv.webp"
+    },
+    {
+      "name": "Uganda",
+      "slug": "uganda",
+      "isoCode": "ug",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ug.webp",
+      "pageUrl": "https://flagpedia.net/uganda",
+      "area": 241550,
+      "population": 40299300,
+      "localPath": "output/flags/ug.webp"
+    },
+    {
+      "name": "Ukraine",
+      "slug": "ukraine",
+      "isoCode": "ua",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ua.webp",
+      "pageUrl": "https://flagpedia.net/ukraine",
+      "area": 603500,
+      "population": 41902416,
+      "localPath": "output/flags/ua.webp"
+    },
+    {
+      "name": "United Arab Emirates",
+      "slug": "the-united-arab-emirates",
+      "isoCode": "ae",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ae.webp",
+      "pageUrl": "https://flagpedia.net/the-united-arab-emirates",
+      "area": 83600,
+      "population": 9770529,
+      "localPath": "output/flags/ae.webp"
+    },
+    {
+      "name": "United Kingdom",
+      "slug": "the-united-kingdom",
+      "isoCode": "gb",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/gb.webp",
+      "pageUrl": "https://flagpedia.net/the-united-kingdom",
+      "area": 242495,
+      "population": 66435600,
+      "localPath": "output/flags/gb.webp"
+    },
+    {
+      "name": "United States",
+      "slug": "the-united-states",
+      "isoCode": "us",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/us.webp",
+      "pageUrl": "https://flagpedia.net/the-united-states",
+      "area": 9833520,
+      "population": 329345637,
+      "localPath": "output/flags/us.webp"
+    },
+    {
+      "name": "United States Minor Outlying Islands",
+      "slug": "united-states-minor-outlying-islands",
+      "isoCode": "um",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/um.webp",
+      "pageUrl": "https://flagpedia.net/united-states-minor-outlying-islands",
+      "area": 34,
+      "population": 300,
+      "localPath": "output/flags/um.webp"
+    },
+    {
+      "name": "Uruguay",
+      "slug": "uruguay",
+      "isoCode": "uy",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/uy.webp",
+      "pageUrl": "https://flagpedia.net/uruguay",
+      "area": 176215,
+      "population": 3518552,
+      "localPath": "output/flags/uy.webp"
+    },
+    {
+      "name": "Uzbekistan",
+      "slug": "uzbekistan",
+      "isoCode": "uz",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/uz.webp",
+      "pageUrl": "https://flagpedia.net/uzbekistan",
+      "area": 447400,
+      "population": 34034952,
+      "localPath": "output/flags/uz.webp"
+    },
+    {
+      "name": "Vanuatu",
+      "slug": "vanuatu",
+      "isoCode": "vu",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/vu.webp",
+      "pageUrl": "https://flagpedia.net/vanuatu",
+      "area": 12189,
+      "population": 304500,
+      "localPath": "output/flags/vu.webp"
+    },
+    {
+      "name": "Vatican City",
+      "slug": "the-vatican-city",
+      "isoCode": "va",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/va.webp",
+      "pageUrl": "https://flagpedia.net/the-vatican-city",
+      "area": 0.44,
+      "population": 799,
+      "localPath": "output/flags/va.webp"
+    },
+    {
+      "name": "Venezuela",
+      "slug": "venezuela",
+      "isoCode": "ve",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ve.webp",
+      "pageUrl": "https://flagpedia.net/venezuela",
+      "area": 916445,
+      "population": 32219521,
+      "localPath": "output/flags/ve.webp"
+    },
+    {
+      "name": "Vietnam",
+      "slug": "vietnam",
+      "isoCode": "vn",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/vn.webp",
+      "pageUrl": "https://flagpedia.net/vietnam",
+      "area": 331212,
+      "population": 96208984,
+      "localPath": "output/flags/vn.webp"
+    },
+    {
+      "name": "British Virgin Islands",
+      "slug": "british-virgin-islands",
+      "isoCode": "vg",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/vg.webp",
+      "pageUrl": "https://flagpedia.net/british-virgin-islands",
+      "area": 151,
+      "population": 30030,
+      "localPath": "output/flags/vg.webp"
+    },
+    {
+      "name": "United States Virgin Islands",
+      "slug": "united-states-virgin-islands",
+      "isoCode": "vi",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/vi.webp",
+      "pageUrl": "https://flagpedia.net/united-states-virgin-islands",
+      "area": 347,
+      "population": 104578,
+      "localPath": "output/flags/vi.webp"
+    },
+    {
+      "name": "Wales",
+      "slug": "wales",
+      "isoCode": "gb-wls",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/gb-wls.webp",
+      "pageUrl": "https://flagpedia.net/wales",
+      "area": 20779,
+      "population": 3139000,
+      "localPath": "output/flags/gb-wls.webp"
+    },
+    {
+      "name": "Wallis and Futuna",
+      "slug": "wallis-and-futuna",
+      "isoCode": "wf",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/wf.webp",
+      "pageUrl": "https://flagpedia.net/wallis-and-futuna",
+      "area": 142,
+      "population": 11700,
+      "localPath": "output/flags/wf.webp"
+    },
+    {
+      "name": "Western Sahara",
+      "slug": "western-sahara",
+      "isoCode": "eh",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/eh.webp",
+      "pageUrl": "https://flagpedia.net/western-sahara",
+      "area": 266000,
+      "population": 582463,
+      "localPath": "output/flags/eh.webp"
+    },
+    {
+      "name": "Yemen",
+      "slug": "yemen",
+      "isoCode": "ye",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/ye.webp",
+      "pageUrl": "https://flagpedia.net/yemen",
+      "area": 527968,
+      "population": 29161922,
+      "localPath": "output/flags/ye.webp"
+    },
+    {
+      "name": "Zambia",
+      "slug": "zambia",
+      "isoCode": "zm",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/zm.webp",
+      "pageUrl": "https://flagpedia.net/zambia",
+      "area": 752612,
+      "population": 17381168,
+      "localPath": "output/flags/zm.webp"
+    },
+    {
+      "name": "Zimbabwe",
+      "slug": "zimbabwe",
+      "isoCode": "zw",
+      "flagUrl": "https://flagpedia.net/data/flags/h160/zw.webp",
+      "pageUrl": "https://flagpedia.net/zimbabwe",
+      "area": 390757,
+      "population": 15159624,
+      "localPath": "output/flags/zw.webp"
+    }
+  ]
+}
