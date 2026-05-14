@@ -2,19 +2,21 @@
  * Flagpedia Country Flags Scraper
  *
  * Fetches all 254 country flag entries from flagpedia.net/index
- * and downloads the flag images to output/flags/.
+ * and downloads flag images (webp/png) and/or SVGs.
  *
  * Fields collected per country:
- *   name, slug, isoCode, flagUrl, localPath, pageUrl, area (km²), population
+ *   name, slug, isoCode, flagUrl, localPath, svgPath, pageUrl, area (km²), population
  *
  * Output:
  *   output/flagpedia_countries.json  — full structured data
  *   output/flagpedia_countries.csv   — flat CSV
- *   output/flags/                    — downloaded flag images
+ *   output/flags/                    — webp/png images
+ *   output/flags/svg/                — SVG files
  *
  * Usage:
  *   npx ts-node crawl_flagpedia.ts
- *   npx ts-node crawl_flagpedia.ts --no-images       # skip image download
+ *   npx ts-node crawl_flagpedia.ts --no-images       # skip webp/png download
+ *   npx ts-node crawl_flagpedia.ts --no-svg          # skip SVG download
  *   npx ts-node crawl_flagpedia.ts --no-headless     # show browser
  *   npx ts-node crawl_flagpedia.ts --concurrency 10  # parallel downloads (default: 5)
  */
@@ -34,6 +36,7 @@ interface CountryFlag {
   isoCode: string;
   flagUrl: string;
   localPath: string | null;
+  svgPath: string | null;
   pageUrl: string;
   area: number | null;
   population: number | null;
@@ -52,6 +55,7 @@ const BASE_URL = 'https://flagpedia.net';
 const INDEX_URL = `${BASE_URL}/index`;
 const OUTPUT_DIR = path.resolve('./output');
 const FLAGS_DIR = path.join(OUTPUT_DIR, 'flags');
+const SVG_DIR = path.join(FLAGS_DIR, 'svg');
 const OUTPUT_JSON = path.join(OUTPUT_DIR, 'flagpedia_countries.json');
 const OUTPUT_CSV = path.join(OUTPUT_DIR, 'flagpedia_countries.csv');
 
@@ -66,7 +70,7 @@ function ensureDir(dir: string) {
 }
 
 function resultToCsv(result: FlagpediaResult): string {
-  const header = 'name,slug,iso_code,area_km2,population,flag_url,local_path,page_url';
+  const header = 'name,slug,iso_code,area_km2,population,flag_url,local_path,svg_path,page_url';
   const esc = (s: string | number | null) =>
     `"${String(s ?? '').replace(/"/g, '""')}"`;
   const rows = result.countries.map(c =>
@@ -78,13 +82,14 @@ function resultToCsv(result: FlagpediaResult): string {
       esc(c.population),
       esc(c.flagUrl),
       esc(c.localPath),
+      esc(c.svgPath),
       esc(c.pageUrl),
     ].join(','),
   );
   return [header, ...rows].join('\n');
 }
 
-/** Download a single URL to destPath, following redirects. */
+/** Download a single URL to destPath, following one level of redirect. */
 function downloadFile(url: string, destPath: string): Promise<void> {
   return new Promise((resolve, reject) => {
     const file = fs.createWriteStream(destPath);
@@ -128,6 +133,41 @@ async function pLimit<T>(
   return results;
 }
 
+/** Download a batch of files, printing progress. Returns count of failures. */
+async function downloadBatch(
+  label: string,
+  entries: { url: string; dest: string; relPath: string }[],
+  onSuccess: (i: number, relPath: string) => void,
+  concurrency: number,
+): Promise<number> {
+  let done = 0;
+  let failed = 0;
+  const total = entries.length;
+
+  const tasks = entries.map((entry, i) => async () => {
+    if (fs.existsSync(entry.dest)) {
+      onSuccess(i, entry.relPath);
+      done++;
+      return;
+    }
+    try {
+      await downloadFile(entry.url, entry.dest);
+      onSuccess(i, entry.relPath);
+      done++;
+    } catch (err) {
+      warn(`[${label}] Failed ${entry.url}: ${(err as Error).message}`);
+      failed++;
+    }
+    if ((done + failed) % 20 === 0 || done + failed === total) {
+      process.stdout.write(`\r  Progress: ${done + failed}/${total} (${failed} failed)   `);
+    }
+  });
+
+  await pLimit(tasks, concurrency);
+  process.stdout.write('\n');
+  return failed;
+}
+
 // ─── CLI ──────────────────────────────────────────────────────────────────────
 
 function parseCLI() {
@@ -137,16 +177,18 @@ function parseCLI() {
       options: {
         headless: { type: 'boolean', default: true },
         images: { type: 'boolean', default: true },
+        svg: { type: 'boolean', default: true },
         concurrency: { type: 'string', default: '5' },
       },
     });
     return {
       headless: values.headless as boolean,
       images: values.images as boolean,
+      svg: values.svg as boolean,
       concurrency: parseInt(values.concurrency as string, 10) || 5,
     };
   } catch {
-    return { headless: true, images: true, concurrency: 5 };
+    return { headless: true, images: true, svg: true, concurrency: 5 };
   }
 }
 
@@ -156,6 +198,7 @@ async function main(): Promise<void> {
   const args = parseCLI();
   ensureDir(OUTPUT_DIR);
   if (args.images) ensureDir(FLAGS_DIR);
+  if (args.svg) ensureDir(SVG_DIR);
 
   log('Launching browser...');
   const browser = await puppeteer.launch({
@@ -213,46 +256,49 @@ async function main(): Promise<void> {
       warn('Debug screenshot saved to output/flagpedia_debug.png');
     }
 
-    countries = raw.map(c => ({ ...c, localPath: null }));
+    countries = raw.map(c => ({ ...c, localPath: null, svgPath: null }));
   } finally {
     await browser.close();
   }
 
-  // ── Download images ──────────────────────────────────────────────────────────
+  // ── Download webp/png images ─────────────────────────────────────────────────
   if (args.images && countries.length > 0) {
-    log(`Downloading ${countries.length} flag images (concurrency: ${args.concurrency})...`);
-    let done = 0;
-    let failed = 0;
-
-    const tasks = countries.map((country, i) => async () => {
-      const ext = country.flagUrl.split('?')[0].split('.').pop() ?? 'webp';
-      const filename = `${country.isoCode}.${ext}`;
-      const destPath = path.join(FLAGS_DIR, filename);
-
-      // Skip if already downloaded
-      if (fs.existsSync(destPath)) {
-        countries[i].localPath = `output/flags/${filename}`;
-        done++;
-        return;
-      }
-
-      try {
-        await downloadFile(country.flagUrl, destPath);
-        countries[i].localPath = `output/flags/${filename}`;
-        done++;
-      } catch (err) {
-        warn(`Failed to download ${country.name}: ${(err as Error).message}`);
-        failed++;
-      }
-
-      if ((done + failed) % 20 === 0 || done + failed === countries.length) {
-        process.stdout.write(`\r  Progress: ${done + failed}/${countries.length} (${failed} failed)   `);
-      }
+    log(`Downloading ${countries.length} flag images (webp/png, concurrency: ${args.concurrency})...`);
+    const entries = countries.map((c, i) => {
+      const ext = c.flagUrl.split('?')[0].split('.').pop() ?? 'webp';
+      const filename = `${c.isoCode}.${ext}`;
+      return { url: c.flagUrl, dest: path.join(FLAGS_DIR, filename), relPath: `output/flags/${filename}`, i };
     });
+    await downloadBatch(
+      'img',
+      entries,
+      (i, relPath) => { countries[i].localPath = relPath; },
+      args.concurrency,
+    );
+    const ok = countries.filter(c => c.localPath).length;
+    log(`Images: ${ok} OK, ${countries.length - ok} failed`);
+  }
 
-    await pLimit(tasks, args.concurrency);
-    process.stdout.write('\n');
-    log(`Images downloaded: ${done} OK, ${failed} failed`);
+  // ── Download SVGs ────────────────────────────────────────────────────────────
+  if (args.svg && countries.length > 0) {
+    log(`Downloading ${countries.length} SVG flags (concurrency: ${args.concurrency})...`);
+    const entries = countries.map((c, i) => {
+      const filename = `${c.isoCode}.svg`;
+      return {
+        url: `https://flagcdn.com/${c.isoCode}.svg`,
+        dest: path.join(SVG_DIR, filename),
+        relPath: `output/flags/svg/${filename}`,
+        i,
+      };
+    });
+    await downloadBatch(
+      'svg',
+      entries,
+      (i, relPath) => { countries[i].svgPath = relPath; },
+      args.concurrency,
+    );
+    const ok = countries.filter(c => c.svgPath).length;
+    log(`SVGs: ${ok} OK, ${countries.length - ok} failed`);
   }
 
   // ── Write output ─────────────────────────────────────────────────────────────
@@ -266,15 +312,17 @@ async function main(): Promise<void> {
   fs.writeFileSync(OUTPUT_JSON, JSON.stringify(result, null, 2), 'utf-8');
   fs.writeFileSync(OUTPUT_CSV, resultToCsv(result), 'utf-8');
 
-  const imagesDownloaded = countries.filter(c => c.localPath).length;
+  const imgOk = countries.filter(c => c.localPath).length;
+  const svgOk = countries.filter(c => c.svgPath).length;
+
   console.log('\n┌──────────────────────────────────────────────┐');
   console.log('│          Flagpedia Scraper — Done             │');
   console.log('├──────────────────────────┬───────────────────┤');
   console.log(`│ Countries found          │ ${String(countries.length).padEnd(17)} │`);
-  if (args.images) {
-    console.log(`│ Images downloaded        │ ${String(imagesDownloaded).padEnd(17)} │`);
-    console.log(`│ Images folder            │ output/flags/             │`);
-  }
+  if (args.images) console.log(`│ Images (webp/png)        │ ${String(imgOk).padEnd(17)} │`);
+  if (args.svg)    console.log(`│ SVGs downloaded          │ ${String(svgOk).padEnd(17)} │`);
+  if (args.images) console.log(`│ Images folder            │ output/flags/             │`);
+  if (args.svg)    console.log(`│ SVGs folder              │ output/flags/svg/         │`);
   console.log(`│ Output JSON              │ flagpedia_countries.json  │`);
   console.log(`│ Output CSV               │ flagpedia_countries.csv   │`);
   console.log('└──────────────────────────┴───────────────────┘');
